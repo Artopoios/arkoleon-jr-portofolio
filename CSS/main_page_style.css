@@ -1,0 +1,100 @@
+/*
+#This site must be Responsive
+## Mobile devices  : ... - 480px
+## iPads / Tablets : 481px - 1200px
+## Laptops         : 1201px - 1600px
+## Desktops        : 1601px - ...
+
+
+# Color Pallete
+##
+
+## Navigation Bar
+### Backround color: #0b1939 (Dark Blue)
+### Text Color: white
+### Banner Backround color: linear gradient 135: #d4dbef, #ffffff
+### On hover: #ff751f
+
+# font-families
+## Navigation Bar 
+### ARKOLEON JR: HK Modular
+### Links: Telegraf
+
+
+
+## Main text
+### Hi, I'm Arkoleon: HK Grotesk
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: #0b1939;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+}
+
+ul li a {
+    display: flex;
+    color: white;
+    font-size: 18pt;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Space Grotesk', sans-serif;
+}
+h1{
+    color: white;
+    font-size: 26pt;
+    padding-left: 16px;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+ul li a:hover {
+    transition: 0.3s;
+    color: #ff751f;
+}
+
+p {
+    color: orange;
+    padding-top: 10%;
+    font-size: 26pt;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+h2 {
+    color: white;
+    font-size: 55pt;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.profilePic_container{
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 10%;
+}
+
+#Profile_Picture{
+    width: 40%;
+    height: 40%;
+    border-radius: 50%;
+    padding: 5%;
+    object-fit: cover;
+}
+/*
+img {
+    display: block;
+    height: auto; 
+    width: auto;
+    max-height: 100px;
+    background-color: white;
+    padding: 16px;
+}
+*/
