@@ -53,8 +53,19 @@ body {
     width: 120px;
     height: 180px;
     background: white;
-    background: linear-gradient(150deg,rgba(255, 255, 255, 1) 50%, rgba(133, 177, 204, 1) 100%);
+    background: linear-gradient(150deg,rgb(243, 243, 243) 50%, rgba(133, 177, 204, 1) 100%);
     clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 50% 85%, 0% 100%);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5px;
+}
+
+.flag-icon {
+    width: 80px;
+    height: auto;
+    object-fit: contain;
 }
 
 .content-section {
@@ -67,7 +78,7 @@ body {
 .nav-title {
     font-size: 28pt;
     font-family: 'Hanken Grotesk', sans-serif;
-    color: #d6ffdf;
+    color: rgb(229, 229, 229);
     margin-left: 0; 
 }
 
@@ -78,7 +89,7 @@ body {
 
 .nav-links a {
     text-decoration: none;
-    color: #d6ffdf;
+    color: lightgray;
     font-size: 16pt;
     font-weight: 50;
     font-family: 'Space Grotesk', sans-serif;
