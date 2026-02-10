@@ -31,7 +31,7 @@
     src: url('../Fonts/orbitron-v35-latin-regular.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
-    font-display: swap;
+    font-display: swap
 }
 
 @font-face {
@@ -39,7 +39,7 @@
     src: url('../Fonts/jetbrains-mono-v24-greek_latin-regular.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
-    font-display: swap;
+    font-display: swap
 }
 
 @font-face {
@@ -47,14 +47,14 @@
     src: url('../Fonts/roboto-mono-v31-greek_latin-regular.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
-    font-display: swap;
+    font-display: swap
 }
 
 body {
     margin: 0;
     padding: 0;
     background-color: black;
-    box-sizing: border-box;
+    box-sizing: border-box
 }
 
 .menu-bar {
@@ -63,23 +63,22 @@ body {
     height: 10vh;
     background-color: #0b1939;
     align-items: center;
-    border-bottom: 1px solid #18301a;
+    border-bottom: 1px solid #18301a
 }
 
 .logo-section {
-    flex-basis: 16%;
+    flex-basis: 12%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center
 }
 
 .flag-bg {
-    width: 120px;
-    height: 180px;
+    width: 64px;
+    height: 96px;
     background: white;
     background: linear-gradient(150deg,rgb(243, 243, 243) 50%, rgba(133, 177, 204, 1) 100%);
     clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 50% 85%, 0% 100%);
-    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -87,37 +86,40 @@ body {
 }
 
 .flag-icon {
-    width: 80px;
+    position: absolute;
+    width: 40px;
     height: auto;
-    object-fit: contain;
+    object-fit: contain
 }
 
 .content-section {
-    flex-basis: 68%;
+    flex-basis: 76%;
     display: flex;
     align-items: center;
-    justify-content: space-between; 
+    justify-content: space-between
 }
 
 .nav-title {
-    font-size: 28pt;
+    font-size: 24pt;
     font-family: 'orbitronFont', sans-serif;
     color: rgb(229, 229, 229);
-    margin-left: 0; 
+    margin-left: 0;
+    letter-spacing: 1mm;
 }
 
 .nav-links {
     display: flex;
-    gap: 32px;
+    gap: 32px
 }
 
 .nav-links a {
     text-decoration: none;
     color: lightgray;
-    font-size: 16pt;
+    font-size: 12pt;
     font-weight: 50;
     font-family: 'jetbrainFont', sans-serif;
-    transition: color 0.3s;
+    letter-spacing: 0.1mm;
+    transition: color 0.3s
 }
 
 .nav-links a:hover {
@@ -126,7 +128,7 @@ body {
 
 .spacer-section {
     background-color: #0b1939;
-    flex-basis: 16%;
+    flex-basis: 12%
 }
 
 .introduction {
@@ -134,22 +136,22 @@ body {
     align-items: center;
     height: 90vh;
     grid-template-columns: 1fr 1fr;
-    padding-left: 16%;
-    padding-right: 16%;
-    border-bottom: 1px solid #e63946;
+    padding-left: 12%;
+    padding-right: 12%;
 }
 
 .iam{
-    font-size: 24pt;
-    color:lightgray;
+    font-size: 26pt;
+    color:darkgoldenrod;
+    font-weight: normal;
 }
 
 .iam-arkoulis {
-    font-family: 'robotoFont';
+    font-family: 'Lucida Sans', Arial, sans-serif;
     color: rgb(229, 229, 229);
-    font-size: 56pt;
-    color:#e63946;
-    font-weight: 900;
+    font-size: 55pt;
+    letter-spacing: 0.8mm;
+    font-weight: bold;
 }
 
 .profile-picture > img {
@@ -157,5 +159,11 @@ body {
     width: 80%;
     margin-left: auto;
     display: block;
-    border-radius: 50%;
+    border-radius: 50%
+}
+
+.download-view-resume {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(200, 131, 52);
 }
