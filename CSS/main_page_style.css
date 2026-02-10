@@ -30,71 +30,66 @@ body {
     margin: 0;
     padding: 0;
     background-color: black;
+    box-sizing: border-box;
 }
 
-ul {
-    margin: 0;
-    padding: 0;
-    padding-left: 10%;
-    padding-right: 10%;
+.menu-bar {
+    display: flex;
+    width: 100%;
+    height: 100px;
     background-color: #0b1939;
-    display: flex;
-    justify-content: space-between;
     align-items: center;
-    list-style-type: none;
+    border-bottom: 1px solid #18301a;
 }
 
-ul li a {
+.logo-section {
+    flex-basis: 16%;
     display: flex;
-    color: white;
-    font-size: 18pt;
-    padding: 14px 16px;
+    justify-content: center;
+    align-items: center;
+}
+
+.flag-bg {
+    width: 120px;
+    height: 180px;
+    background: white;
+    background: linear-gradient(150deg,rgba(255, 255, 255, 1) 50%, rgba(133, 177, 204, 1) 100%);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 50% 85%, 0% 100%);
+}
+
+.content-section {
+    flex-basis: 68%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+.nav-title {
+    font-size: 28pt;
+    font-family: 'Hanken Grotesk', sans-serif;
+    color: #d6ffdf;
+    margin-left: 0; 
+}
+
+.nav-links {
+    display: flex;
+    gap: 32px;
+}
+
+.nav-links a {
     text-decoration: none;
+    color: #d6ffdf;
+    font-size: 16pt;
+    font-weight: 50;
     font-family: 'Space Grotesk', sans-serif;
-}
-h1{
-    color: white;
-    font-size: 26pt;
-    padding-left: 16px;
-    font-family: 'Hanken Grotesk', sans-serif;
-}
-ul li a:hover {
-    transition: 0.3s;
-    color: #ff751f;
+    transition: color 0.3s;
 }
 
-p {
-    color: orange;
-    padding-top: 10%;
-    font-size: 26pt;
-    font-family: 'Hanken Grotesk', sans-serif;
-}
-h2 {
-    color: white;
-    font-size: 55pt;
-    font-family: 'Hanken Grotesk', sans-serif;
+.nav-links a:hover {
+    color: #e63946;
 }
 
-.profilePic_container{
-    display: flex;
-    justify-content: space-between;
-    padding-inline: 10%;
+.spacer-section {
+    background-color: #0b1939;
+    flex-basis: 16%;
 }
-
-#Profile_Picture{
-    width: 40%;
-    height: 40%;
-    border-radius: 50%;
-    padding: 5%;
-    object-fit: cover;
-}
-/*
-img {
-    display: block;
-    height: auto; 
-    width: auto;
-    max-height: 100px;
-    background-color: white;
-    padding: 16px;
-}
-*/
