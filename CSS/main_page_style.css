@@ -53,7 +53,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: black;
+    background-color: rgb(255, 255, 255);
     box-sizing: border-box
 }
 
@@ -101,7 +101,7 @@ body {
 
 .nav-title {
     font-size: 24pt;
-    font-family: 'orbitronFont', sans-serif;
+    font-family: 'jetbrainFont', sans-serif;
     color: rgb(229, 229, 229);
     margin-left: 0;
     letter-spacing: 1mm;
@@ -142,13 +142,13 @@ body {
 
 .iam{
     font-size: 26pt;
-    color:darkgoldenrod;
+    color:rgb(0, 0, 0);
     font-weight: normal;
 }
 
 .iam-arkoulis {
     font-family: 'Lucida Sans', Arial, sans-serif;
-    color: rgb(229, 229, 229);
+    color: rgb(0, 0, 0);
     font-size: 55pt;
     letter-spacing: 0.8mm;
     font-weight: bold;
